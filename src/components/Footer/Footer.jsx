@@ -1,9 +1,17 @@
-import styles from "./Footer.css"
-function Footer() {
+// src/components/Footer.jsx
+import React from "react";
+import "./Footer.css";
+
+export default function Footer() {
     return (
-        <div className={styles.Footer}>
-            Footer
-        </div>
-    )
+        <footer className="tf-footer">
+            <div className="tf-container">
+                <div>© {new Date().getFullYear()} Task flow — Made with ❤️</div>
+                <div className="tf-footer-links">
+                    <a href="/privacy">Privacy</a>
+                    <a href="/terms">Terms</a>
+                </div>
+            </div>
+        </footer>
+    );
 }
-export default Footer;
