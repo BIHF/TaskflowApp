@@ -1,7 +1,7 @@
 import React from "react";
-import Header from "../components/Header/Header.jsx";
-import Body from "../components/Body/Body.jsx";
-import Footer from "../components/Footer/Footer.jsx";
+import Header from "../components/Header/Header.js";
+import Body from "../components/Body/Body.js";
+import Footer from "../components/Footer/Footer.js";
 import styles from "./Home.css";
 
 function Home(){
