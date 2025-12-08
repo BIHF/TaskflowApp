@@ -1,0 +1,21 @@
+.app-container {
+    height: 100vh;        /* full screen height */
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    height: 5%;
+    background: #f3f3f3;
+}
+
+main {
+    height: 90%;
+    background: #fff;
+    overflow-y: auto;
+}
+
+footer {
+    height: 5%;
+    background: #f3f3f3;
+}

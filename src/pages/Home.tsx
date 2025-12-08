@@ -1,8 +1,8 @@
 import React from "react";
-import Header from "../components/Header/Header.js";
-import Body from "../components/Body/Body.js";
-import Footer from "../components/Footer/Footer.js";
-import styles from "./Home.css";
+import Header from "../components/Header/Header";
+import Body from "../components/Body/Body";
+import Footer from "../components/Footer/Footer";
+import styles from "./Home.module.scss";
 
 function Home(){
     return(
@@ -20,6 +20,5 @@ function Home(){
             </div>
         </div>
     )
-
 }
 export default Home;

@@ -1,8 +1,8 @@
 function Body() {
     return (
-        <main style={{ padding: "20px" }}>
+        <main>
             <h3>Body Section</h3>
-            <p>This is where your main content goes.</p>
+            <p>Your main content goes here.</p>
         </main>
     );
 }
